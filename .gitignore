@@ -213,3 +213,53 @@ week6/*/*.jsonl
 week6/*.pth
 week6/*.joblib
 week8/*.pth
+
+*.mov
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Large video / media files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.webm
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Model / ML artifacts
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Community/student contributions
+# Not part of original Ed Donner course material
+# May contain large files
+community-contributions/
